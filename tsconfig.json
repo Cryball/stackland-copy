@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+    "target": "es6",
+    "module": "esnext",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    // "paths": {
+    //   "@components/*": ["app/components/*"],
+    //   "@utils/*": ["app/utils/*"],
+    //   "@hooks/*": ["app/hooks/*"],
+    //   "@configs/*": ["app/configs/*"],
+    //   "@auth/*": ["app/auth/*"],
+    //   "@assets/*": ["app/assets/*"],
+    //   "@main/*": ["app/main/*"],
+    //   "@store/*": ["app/store/*"],
+    //   "@interfaces/*": ["app/interfaces/*"],
+    // },
+    "types": ["node"]
+  },
+  "include": ["src", "src/app/types/svg.d.ts", "src/app/types/i18next.d.ts", "./i18n-parser.config.ts"],
+  "exclude": ["node_modules"]
+}
